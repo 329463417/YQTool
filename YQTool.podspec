@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
                           YQTool 是一个用于保存一些常用工具类的工具
                    DESC
 
-  s.homepage         = 'https://github.com/329463417@qq.com/YQTool'
+  s.homepage         = 'https://github.com/329463417/YQTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '329463417@qq.com' => '329463417@qq.com' }
-  s.source           = { :git => 'https://github.com/329463417@qq.com/YQTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/329463417/YQTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
