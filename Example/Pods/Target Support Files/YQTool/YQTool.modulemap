@@ -1,0 +1,6 @@
+framework module YQTool {
+  umbrella header "YQTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

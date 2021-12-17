@@ -1,0 +1,16 @@
+PODS:
+  - YQTool (0.1.0)
+
+DEPENDENCIES:
+  - YQTool (from `../`)
+
+EXTERNAL SOURCES:
+  YQTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YQTool: 3467db38f8da54c628dce0dd92c7568110180d41
+
+PODFILE CHECKSUM: 25aa8de6a96fd6a52ca785c7258e3b2b7ad3243b
+
+COCOAPODS: 1.10.1
