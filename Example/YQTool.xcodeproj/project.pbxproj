@@ -61,11 +61,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		69690E18EB9682AE666A6678 /* Pods_YQTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7514D89AE934348AD05C51A6 /* YQTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YQTool.podspec; path = ../YQTool.podspec; sourceTree = "<group>"; };
+		7514D89AE934348AD05C51A6 /* YQTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQTool.podspec; path = ../YQTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B28349FB7D2B40450BE45D57 /* Pods-YQTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-YQTool_Example/Pods-YQTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E13C32541C1026B833729CFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E517408576D9CB236D5FCD0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E13C32541C1026B833729CFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E517408576D9CB236D5FCD0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F081CAA0E686A2E72A7CC2EF /* Pods-YQTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQTool_Example.release.xcconfig"; path = "Target Support Files/Pods-YQTool_Example/Pods-YQTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,7 +183,6 @@
 				3908461292A58945D8E5CF01 /* Pods-YQTool_Tests.debug.xcconfig */,
 				20CE76D21847DB13778D1FCC /* Pods-YQTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
