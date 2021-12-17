@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YQPerson.h"
 
 FOUNDATION_EXPORT double YQToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char YQToolVersionString[];
